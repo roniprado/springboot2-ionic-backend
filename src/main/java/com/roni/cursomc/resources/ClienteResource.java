@@ -11,7 +11,7 @@ import com.roni.cursomc.domain.Cliente;
 import com.roni.cursomc.services.ClienteService;
 
 @RestController
-@RequestMapping(value="/cliente")
+@RequestMapping(value="/clientes")
 public class ClienteResource {
 	
 	@Autowired
